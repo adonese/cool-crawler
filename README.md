@@ -17,3 +17,5 @@ To make this code compatible with your application, I'd change the ``url`` in li
 Change line 23 in main function ``if '/files/details/' in link['href']:`` to be ``if '\torrents\' in link['href']:`` It just happened that the patterns of tpb is ``https://www.thepiratebay.org/torrents/some_digits_here`` You can use regular expression though, but I think this is fast enough.
 
 If you find this script useful for you, fork it, pull request for any further enhancements, efficiency discussions very very welcome!
+
+OOPS I almost forgot to mention that. It's really necessary to let the user specify, or loops through the pages.
